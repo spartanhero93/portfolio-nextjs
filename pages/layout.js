@@ -1,4 +1,5 @@
-import Home from './app'
+import Index from './index'
+import '../styles/global.scss'
 
 export const metadata = {
   title: 'Next.js',
@@ -9,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Home />
+        <Index />
       </body>
     </html>
   );

@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.light_mode {
+  .sideBar {
+    background-color: #025c8c;
+  }
+}
+
+.dark_mode {
+  .sideBar {
+    background-color: #32007b;
+  }
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  color: white;
+  h3 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  ul {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+    a {
+      text-decoration: none;
+      margin: .5rem 0;
+      &:visited { color: white; }
+      &:hover { 
+        color: white; 
+      }
+    }
+  }
+}
+
+.userHyperLinksSocial {
+  display: flex;
+  & > a {
+    margin: 0rem 4rem;
+  }
+}

@@ -1,5 +1,4 @@
-import react from 'react'
-import Home from './app'
+import Home from './_app'
 
 
 export default function Index (){
