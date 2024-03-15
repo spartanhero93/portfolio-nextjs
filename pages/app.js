@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
+import '../styles/app.module.scss'
 
 function Header ({title}) {
-  return <h1>{title}</h1>
+  return <h1 className='container'>{title}</h1>
 }
 
-function App () {
+export default function Home () {
   const [count, handleCount] = useState(0)
   return (
     <div>
@@ -15,4 +16,4 @@ function App () {
   )
 }
 
-export default App
+ 
