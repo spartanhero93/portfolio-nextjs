@@ -53,7 +53,10 @@ export default function Sidebar () {
       </ul>
       <button>Hire Me</button>
       <p>Dark Mode</p>
-      <button>Slider</button>
+      <label class="slider">
+        <input type="checkbox" id="modeSwitch" />
+        <span class="slider-round"></span>
+      </label>
     </div>
   )
 }
